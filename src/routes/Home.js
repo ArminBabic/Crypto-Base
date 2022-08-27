@@ -1,7 +1,14 @@
 import React from "react";
+import CoinSearch from "../components/CoinSearch";
+import Trending from "../components/Trending";
 
-function Home() {
-  return <div>Home</div>;
+function Home(props) {
+  return (
+    <>
+      <CoinSearch coins={props.coins} />
+      <Trending />
+    </>
+  );
 }
 
 export default Home;
