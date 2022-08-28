@@ -41,7 +41,7 @@ function CoinItem(props) {
 
       <td>
         <Sparklines data={props.coin.sparkline_in_7d.price}>
-          <SparklinesLine color="lightBlue" />
+          <SparklinesLine color="teal" />
         </Sparklines>
       </td>
     </tr>
