@@ -16,7 +16,7 @@ function CoinSearch({ coins }) {
             }}
             type="text"
             placeholder="Search a coin..."
-            className="w-full bg-primary border border-input py-2 rounded-2xl shadow-xl"
+            className="w-full bg-primary border border-input pl-2 py-2 rounded-2xl shadow-xl"
           />
         </form>
       </header>
