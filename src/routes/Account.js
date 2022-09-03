@@ -34,12 +34,12 @@ function Account() {
         </header>
         <main className="rounded-div mt-12 py-8 min-h-[300px]">
           <h1 className="text-2xl font-bold">Watch List</h1>
-          <SavedCoin />
+          {<SavedCoin />}
         </main>
       </section>
     );
   } else {
-    return <Navigate to="/signin" />;
+    return <Navigate to="/SignIn" />;
   }
 }
 

@@ -67,7 +67,7 @@ function Navbar() {
 
       {user?.email ? (
         <div className="hidden md:block">
-          <Link to={"/account"} classNamep-4>
+          <Link to={"/account"} className="p-4">
             Account
           </Link>{" "}
           <button onClick={logoutHandler} className="p-4">
